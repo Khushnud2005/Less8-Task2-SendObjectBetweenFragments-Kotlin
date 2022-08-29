@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#8ECAFB"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/tv_firstFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First User"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/btn_firstFrag"
+            android:textSize="20sp"
+            android:text="to Second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</FrameLayout>
